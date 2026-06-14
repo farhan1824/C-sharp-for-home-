@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c sharp pratcice\\DemoCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|e:\\c sharp pratcice\\democrud\\democrud\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|solutionrelative:democrud\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|e:\\c sharp pratcice\\democrud\\democrud\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|solutionrelative:democrud\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|e:\\c sharp pratcice\\democrud\\democrud\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|solutionrelative:democrud\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|e:\\c sharp pratcice\\democrud\\democrud\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|solutionrelative:democrud\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|e:\\c sharp pratcice\\democrud\\democrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6CF2D7-1A7D-4ED1-BBB0-D38A54F57969}|DemoCRUD\\DemoCRUD.csproj|solutionrelative:democrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DemoCRUD\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "DemoCRUD\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T10:41:13.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "DemoCRUD\\Views\\Student\\Create.cshtml",
+              "ToolTip": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "DemoCRUD\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T09:50:14.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "DemoCRUD\\Views\\Student\\Index.cshtml",
+              "ToolTip": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "DemoCRUD\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T08:56:05.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "DemoCRUD\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "DemoCRUD\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T08:52:17.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "DemoCRUD\\Models\\Student.cs",
+              "ToolTip": "E:\\c sharp pratcice\\DemoCRUD\\DemoCRUD\\Models\\Student.cs",
+              "RelativeToolTip": "DemoCRUD\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T08:45:17.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

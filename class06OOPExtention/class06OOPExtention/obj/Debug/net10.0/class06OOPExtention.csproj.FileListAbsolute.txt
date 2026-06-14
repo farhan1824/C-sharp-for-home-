@@ -1,0 +1,14 @@
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\bin\Debug\net10.0\class06OOPExtention.exe
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\bin\Debug\net10.0\class06OOPExtention.deps.json
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\bin\Debug\net10.0\class06OOPExtention.runtimeconfig.json
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\bin\Debug\net10.0\class06OOPExtention.dll
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\bin\Debug\net10.0\class06OOPExtention.pdb
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.GeneratedMSBuildEditorConfig.editorconfig
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.AssemblyInfoInputs.cache
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.AssemblyInfo.cs
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.csproj.CoreCompileInputs.cache
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.dll
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\refint\class06OOPExtention.dll
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.pdb
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\class06OOPExtention.genruntimeconfig.cache
+E:\c sharp pratcice\class06OOPExtention\class06OOPExtention\obj\Debug\net10.0\ref\class06OOPExtention.dll

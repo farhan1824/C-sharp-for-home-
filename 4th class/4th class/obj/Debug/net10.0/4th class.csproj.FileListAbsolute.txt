@@ -1,0 +1,14 @@
+E:\c sharp pratcice\4th class\4th class\bin\Debug\net10.0\4th class.exe
+E:\c sharp pratcice\4th class\4th class\bin\Debug\net10.0\4th class.deps.json
+E:\c sharp pratcice\4th class\4th class\bin\Debug\net10.0\4th class.runtimeconfig.json
+E:\c sharp pratcice\4th class\4th class\bin\Debug\net10.0\4th class.dll
+E:\c sharp pratcice\4th class\4th class\bin\Debug\net10.0\4th class.pdb
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.GeneratedMSBuildEditorConfig.editorconfig
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.AssemblyInfoInputs.cache
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.AssemblyInfo.cs
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.csproj.CoreCompileInputs.cache
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.dll
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\refint\4th class.dll
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.pdb
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\4th class.genruntimeconfig.cache
+E:\c sharp pratcice\4th class\4th class\obj\Debug\net10.0\ref\4th class.dll

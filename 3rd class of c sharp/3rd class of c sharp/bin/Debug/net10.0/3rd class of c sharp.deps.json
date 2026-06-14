@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "3rd class of c sharp/1.0.0": {
+        "runtime": {
+          "3rd class of c sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "3rd class of c sharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c sharp pratcice\\class06OOPExtention\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|e:\\c sharp pratcice\\class06oopextention\\class06oopextention\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|solutionrelative:class06oopextention\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|e:\\c sharp pratcice\\class06oopextention\\class06oopextention\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|solutionrelative:class06oopextention\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|e:\\c sharp pratcice\\class06oopextention\\class06oopextention\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|solutionrelative:class06oopextention\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|e:\\c sharp pratcice\\class06oopextention\\class06oopextention\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|solutionrelative:class06oopextention\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|e:\\c sharp pratcice\\class06oopextention\\class06oopextention\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|solutionrelative:class06oopextention\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|e:\\c sharp pratcice\\class06oopextention\\class06oopextention\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B97BFDE-9ED5-4017-989C-A529C3BCD6BE}|class06OOPExtention\\class06OOPExtention.csproj|solutionrelative:class06oopextention\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Student.cs",
+              "RelativeDocumentMoniker": "class06OOPExtention\\Student.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Student.cs",
+              "RelativeToolTip": "class06OOPExtention\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:42:18.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Calculator.cs",
+              "RelativeDocumentMoniker": "class06OOPExtention\\Calculator.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Calculator.cs",
+              "RelativeToolTip": "class06OOPExtention\\Calculator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:01:55.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Developer.cs",
+              "RelativeDocumentMoniker": "class06OOPExtention\\Developer.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Developer.cs",
+              "RelativeToolTip": "class06OOPExtention\\Developer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:10:33.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Manager.cs",
+              "RelativeDocumentMoniker": "class06OOPExtention\\Manager.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Manager.cs",
+              "RelativeToolTip": "class06OOPExtention\\Manager.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAWwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:06:53.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Employee.cs",
+              "RelativeDocumentMoniker": "class06OOPExtention\\Employee.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Employee.cs",
+              "RelativeToolTip": "class06OOPExtention\\Employee.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T08:59:38.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Program.cs",
+              "RelativeDocumentMoniker": "class06OOPExtention\\Program.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class06OOPExtention\\class06OOPExtention\\Program.cs",
+              "RelativeToolTip": "class06OOPExtention\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T08:34:26.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

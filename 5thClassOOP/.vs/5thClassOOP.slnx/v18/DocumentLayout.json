@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c sharp pratcice\\5thClassOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|e:\\c sharp pratcice\\5thclassoop\\5thclassoop\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|solutionrelative:5thclassoop\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|e:\\c sharp pratcice\\5thclassoop\\5thclassoop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|solutionrelative:5thclassoop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|e:\\c sharp pratcice\\5thclassoop\\5thclassoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|solutionrelative:5thclassoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|e:\\c sharp pratcice\\5thclassoop\\5thclassoop\\cus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|solutionrelative:5thclassoop\\cus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|e:\\c sharp pratcice\\5thclassoop\\5thclassoop\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638525DF-0A8B-B889-39B5-B01C09F8FA28}|5thClassOOP\\5thClassOOP.csproj|solutionrelative:5thclassoop\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Salary.cs",
+              "RelativeDocumentMoniker": "5thClassOOP\\Salary.cs",
+              "ToolTip": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Salary.cs",
+              "RelativeToolTip": "5thClassOOP\\Salary.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:19:01.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cus.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Cus.cs",
+              "RelativeDocumentMoniker": "5thClassOOP\\Cus.cs",
+              "ToolTip": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Cus.cs",
+              "RelativeToolTip": "5thClassOOP\\Cus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:14:40.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Details.cs",
+              "RelativeDocumentMoniker": "5thClassOOP\\Details.cs",
+              "ToolTip": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Details.cs",
+              "RelativeToolTip": "5thClassOOP\\Details.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:51:16.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Employee.cs",
+              "RelativeDocumentMoniker": "5thClassOOP\\Employee.cs",
+              "ToolTip": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Employee.cs",
+              "RelativeToolTip": "5thClassOOP\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:56:18.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Program.cs",
+              "RelativeDocumentMoniker": "5thClassOOP\\Program.cs",
+              "ToolTip": "E:\\c sharp pratcice\\5thClassOOP\\5thClassOOP\\Program.cs",
+              "RelativeToolTip": "5thClassOOP\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:27:23.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\bin\Debug\net10.0\3rd class of c sharp.exe
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\bin\Debug\net10.0\3rd class of c sharp.deps.json
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\bin\Debug\net10.0\3rd class of c sharp.runtimeconfig.json
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\bin\Debug\net10.0\3rd class of c sharp.dll
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\bin\Debug\net10.0\3rd class of c sharp.pdb
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.AssemblyInfoInputs.cache
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.AssemblyInfo.cs
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.csproj.CoreCompileInputs.cache
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.dll
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\refint\3rd class of c sharp.dll
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.pdb
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\3rd class of c sharp.genruntimeconfig.cache
+E:\c sharp pratcice\3rd class of c sharp\3rd class of c sharp\obj\Debug\net10.0\ref\3rd class of c sharp.dll

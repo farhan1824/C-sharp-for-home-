@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c sharp pratcice\\class02loops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{330453B1-61B0-42E1-8759-4A4A540E9401}|class02loops\\class02loops.csproj|e:\\c sharp pratcice\\class02loops\\class02loops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330453B1-61B0-42E1-8759-4A4A540E9401}|class02loops\\class02loops.csproj|solutionrelative:class02loops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\c sharp pratcice\\class02loops\\class02loops\\Program.cs",
+              "RelativeDocumentMoniker": "class02loops\\Program.cs",
+              "ToolTip": "E:\\c sharp pratcice\\class02loops\\class02loops\\Program.cs",
+              "RelativeToolTip": "class02loops\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwFkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T08:54:04.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

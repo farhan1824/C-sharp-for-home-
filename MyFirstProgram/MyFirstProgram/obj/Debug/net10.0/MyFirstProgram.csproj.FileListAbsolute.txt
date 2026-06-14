@@ -1,0 +1,14 @@
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.exe
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.deps.json
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.runtimeconfig.json
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.dll
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\bin\Debug\net10.0\MyFirstProgram.pdb
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.GeneratedMSBuildEditorConfig.editorconfig
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.AssemblyInfoInputs.cache
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.AssemblyInfo.cs
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.csproj.CoreCompileInputs.cache
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.dll
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\refint\MyFirstProgram.dll
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.pdb
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\MyFirstProgram.genruntimeconfig.cache
+E:\c sharp pratcice\MyFirstProgram\MyFirstProgram\obj\Debug\net10.0\ref\MyFirstProgram.dll

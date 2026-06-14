@@ -1,0 +1,14 @@
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\bin\Debug\net10.0\5thClassOOP.exe
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\bin\Debug\net10.0\5thClassOOP.deps.json
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\bin\Debug\net10.0\5thClassOOP.runtimeconfig.json
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\bin\Debug\net10.0\5thClassOOP.dll
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\bin\Debug\net10.0\5thClassOOP.pdb
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.AssemblyInfoInputs.cache
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.AssemblyInfo.cs
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.csproj.CoreCompileInputs.cache
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.dll
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\refint\5thClassOOP.dll
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.pdb
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\5thClassOOP.genruntimeconfig.cache
+E:\c sharp pratcice\5thClassOOP\5thClassOOP\obj\Debug\net10.0\ref\5thClassOOP.dll

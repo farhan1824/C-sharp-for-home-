@@ -1,0 +1,14 @@
+E:\c sharp pratcice\class02loops\class02loops\bin\Debug\net10.0\class02loops.exe
+E:\c sharp pratcice\class02loops\class02loops\bin\Debug\net10.0\class02loops.deps.json
+E:\c sharp pratcice\class02loops\class02loops\bin\Debug\net10.0\class02loops.runtimeconfig.json
+E:\c sharp pratcice\class02loops\class02loops\bin\Debug\net10.0\class02loops.dll
+E:\c sharp pratcice\class02loops\class02loops\bin\Debug\net10.0\class02loops.pdb
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.GeneratedMSBuildEditorConfig.editorconfig
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.AssemblyInfoInputs.cache
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.AssemblyInfo.cs
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.csproj.CoreCompileInputs.cache
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.dll
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\refint\class02loops.dll
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.pdb
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\class02loops.genruntimeconfig.cache
+E:\c sharp pratcice\class02loops\class02loops\obj\Debug\net10.0\ref\class02loops.dll
