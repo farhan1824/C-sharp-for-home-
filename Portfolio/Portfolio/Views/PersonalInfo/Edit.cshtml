@@ -1,0 +1,100 @@
+﻿@model Portfolio.Models.PersonalinfoVm
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>PersonalinfoVm</h4>
+<hr />
+<style>
+  /* PersonalInfo Edit scoped styles */
+  .personal-edit-container { max-width: 920px; margin: 0.75rem auto; border-radius: 10px; box-shadow: 0 6px 18px rgba(18,38,63,0.04); }
+  .personal-edit-container .form-group { margin-bottom: 1rem; }
+  .personal-edit-container .form-control { border-radius: 8px; padding: 0.6rem 0.75rem; border: 1px solid #dfe6ee; }
+  .personal-edit-container .form-control:focus { box-shadow: 0 0 0 4px rgba(27,110,194,0.06); border-color: #1b6ec2; }
+  .personal-edit-container .control-label { font-weight: 600; color: #2c3e50; margin-bottom: 0.4rem; display:block; }
+  .personal-edit-container .text-danger { color: #b00020; }
+  .personal-edit-container .btn-primary { border-radius: 8px; padding: 0.55rem 0.9rem; }
+  .personal-edit-container .btn-secondary { border-radius: 8px; }
+  .personal-edit-container .back-link { color: #1b6ec2; text-decoration: none; }
+  .personal-edit-container .back-link:hover { text-decoration: underline; }
+</style>
+<div class="row">
+    <div class="col-md-4 personal-edit-container">
+        <form asp-action="Edit" class="personal-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input asp-for="ProfileImageUrl" type="hidden"  />
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Website" class="control-label"></label>
+                <input asp-for="Website" class="form-control" />
+                <span asp-validation-for="Website" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LinkedIn" class="control-label"></label>
+                <input asp-for="LinkedIn" class="form-control" />
+                <span asp-validation-for="LinkedIn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GitHub" class="control-label"></label>
+                <input asp-for="GitHub" class="form-control" />
+                <span asp-validation-for="GitHub" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bio" class="control-label"></label>
+                <input asp-for="Bio" class="form-control" />
+                <span asp-validation-for="Bio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProfileImageUrl" class="control-label"></label>
+                <input asp-for="ProfileImageUrl" class="form-control" />
+                <span asp-validation-for="ProfileImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="profilephoto" class="control-label"></label>
+                <input asp-for="profilephoto" class="form-control" />
+                <span asp-validation-for="profilephoto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

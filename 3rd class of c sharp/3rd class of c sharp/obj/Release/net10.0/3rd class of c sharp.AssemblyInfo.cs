@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3rd class of c sharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca8878a890fccaf4b018a67e3d63c5e3fd989fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("3rd class of c sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3rd class of c sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

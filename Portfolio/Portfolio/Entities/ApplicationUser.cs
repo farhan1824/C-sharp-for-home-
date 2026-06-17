@@ -1,6 +1,9 @@
-﻿namespace Portfolio.Entities
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Portfolio.Entities
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
+        public string? FullName { get; set; }
     }
 }

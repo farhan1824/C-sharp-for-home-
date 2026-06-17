@@ -1,0 +1,79 @@
+﻿@model Portfolio.Models.EducationVm
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+  /* Education Create view styles */
+  .create-container {
+    max-width: 760px;
+    margin: 1rem auto;
+    padding: 1rem 1.25rem;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+  }
+  .create-form .form-group { display: flex; flex-direction: column; margin-bottom: 1rem; }
+  .create-form label { font-weight: 600; margin-bottom: 0.5rem; color: #333; }
+  .create-form input.form-control, .create-form textarea.form-control, .create-form select.form-control {
+    padding: 0.6rem 0.75rem; border: 1px solid #ced4da; border-radius: 6px; transition: box-shadow 0.12s ease, border-color 0.12s ease;
+  }
+  .create-form input.form-control:focus, .create-form textarea.form-control:focus, .create-form select.form-control:focus {
+    outline: none; border-color: #1b6ec2; box-shadow: 0 0 0 3px rgba(27,110,194,0.08);
+  }
+  .create-form .btn-primary { padding: 0.5rem 0.9rem; border-radius: 6px; }
+  .create-form .text-danger { color: #b00020; margin-top: 0.35rem; }
+  .back-link { display: inline-block; margin-top: 0.75rem; color: #1b6ec2; text-decoration: none; }
+  .back-link:hover { text-decoration: underline; }
+  @media (max-width: 576px) { .create-container { padding: 0.75rem; } .col-md-4 { flex: 0 0 100%; max-width: 100%; } }
+</style>
+
+<h1>Create</h1>
+
+<h4>EducationVm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Institution" class="control-label"></label>
+                <input asp-for="Institution" class="form-control" />
+                <span asp-validation-for="Institution" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Degree" class="control-label"></label>
+                <input asp-for="Degree" class="form-control" />
+                <span asp-validation-for="Degree" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FieldOfStudy" class="control-label"></label>
+                <input asp-for="FieldOfStudy" class="form-control" />
+                <span asp-validation-for="FieldOfStudy" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

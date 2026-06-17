@@ -46,3 +46,71 @@ button.accept-policy[b-0aq0x0b44y] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+/* Forms styling used across Views */
+form[b-0aq0x0b44y] {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  padding: 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+}
+.form-group[b-0aq0x0b44y] {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.form-row[b-0aq0x0b44y] {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.form-row .form-group[b-0aq0x0b44y] {
+  flex: 1 1 220px;
+}
+label[b-0aq0x0b44y] {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+input[type="text"][b-0aq0x0b44y], input[type="email"][b-0aq0x0b44y], input[type="password"][b-0aq0x0b44y], textarea[b-0aq0x0b44y], select[b-0aq0x0b44y] {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background: #fff;
+  transition: box-shadow 0.12s ease, border-color 0.12s ease;
+}
+textarea[b-0aq0x0b44y] {
+  min-height: 120px;
+  resize: vertical;
+}
+input:focus[b-0aq0x0b44y], textarea:focus[b-0aq0x0b44y], select:focus[b-0aq0x0b44y] {
+  outline: none;
+  border-color: #1b6ec2;
+  box-shadow: 0 0 0 3px rgba(27,110,194,0.12);
+}
+.form-actions[b-0aq0x0b44y] {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.btn[b-0aq0x0b44y] {
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+}
+.field-validation-error[b-0aq0x0b44y] {
+  color: #b00020;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+.input-validation-error[b-0aq0x0b44y] {
+  border-color: #b00020;
+  box-shadow: 0 0 0 3px rgba(176,0,32,0.06);
+}
+@media (max-width: 576px) {
+  form[b-0aq0x0b44y] { padding: 0.75rem; }
+  .form-row[b-0aq0x0b44y] { flex-direction: column; }
+  .footer[b-0aq0x0b44y] { position: static; }
+}

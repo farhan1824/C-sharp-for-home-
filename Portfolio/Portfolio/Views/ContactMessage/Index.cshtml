@@ -1,0 +1,76 @@
+@model IEnumerable<Portfolio.Entities.ContactMessage>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+  /* ContactMessage Index view styles */
+  .contact-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  .contact-table th, .contact-table td { padding: 0.65rem; border: 1px solid #eaeaea; text-align: left; vertical-align: middle; }
+  .contact-table th { background: #f7f9fc; font-weight: 600; color: #333; }
+  .contact-table tbody tr:hover { background: #fbfdff; }
+  .create-link { display: inline-block; padding: 0.45rem 0.75rem; background: #1b6ec2; color: #fff; border-radius: 6px; text-decoration: none; }
+  .create-link:hover { background: #165aa6; }
+  .action-links a { color: #1b6ec2; margin-right: 0.5rem; text-decoration: none; }
+  .action-links a:hover { text-decoration: underline; }
+  .empty-message { color: #666; font-style: italic; padding: 1rem 0; }
+
+
+</style>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="create-link">Create New</a>
+</p>
+<table class="table contact-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SentAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Message)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.SentAt)
+            </td>
+            <td>
+                <span class="action-links">
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </span>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

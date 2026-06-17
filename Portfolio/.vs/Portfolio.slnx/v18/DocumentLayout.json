@@ -3,64 +3,68 @@
   "WorkspaceRootPath": "C:\\Farhan\\c sharp\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\contactmessage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\contactmessage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\contactmessage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\contactmessage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\contactmessage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\contactmessage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\contactmessage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\contactmessage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\education\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\education\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\education\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\education\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\entities\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\entities\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\education\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\education\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\entities\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\entities\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\education\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\education\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\experience\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\experience\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\entities\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\entities\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\experience\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\experience\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\experience\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\experience\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\experience\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\experience\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\personalinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\personalinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\personalinfo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\personalinfo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB038F5-FF5D-4840-8125-72EB2C876251}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\personalinfo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\personalinfo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|c:\\farhan\\c sharp\\portfolio\\portfolio\\views\\personalinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EF07EB3-D5B2-6878-5AF7-019C4FEC1331}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\views\\personalinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,201 +74,218 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "Portfolio\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:46:16.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Data\\SeedData.cs",
-              "RelativeToolTip": "Portfolio\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:30:26.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\appsettings.json",
-              "RelativeDocumentMoniker": "Portfolio\\appsettings.json",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\appsettings.json",
-              "RelativeToolTip": "Portfolio\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-14T18:28:53.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Portfolio\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:13:43.206Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Portfolio\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:07:29.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContactMessage.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\ContactMessage.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Entities\\ContactMessage.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\ContactMessage.cs",
-              "RelativeToolTip": "Portfolio\\Entities\\ContactMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:01:35.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Education.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\Education.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Entities\\Education.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\Education.cs",
-              "RelativeToolTip": "Portfolio\\Entities\\Education.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:01:21.212Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\ContactMessage\\Index.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Index.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\ContactMessage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:30:27.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Experience.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\Experience.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Entities\\Experience.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\Experience.cs",
-              "RelativeToolTip": "Portfolio\\Entities\\Experience.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:01:06.938Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Education\\Index.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Index.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Education\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAApwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:16:30.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Skill.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\Skill.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Entities\\Skill.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\Skill.cs",
-              "RelativeToolTip": "Portfolio\\Entities\\Skill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:00:53.615Z",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Education\\Edit.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Edit.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Education\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:15:13.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Education\\Delete.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Delete.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Education\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwBkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:14:25.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Program.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Program.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Program.cs",
-              "RelativeToolTip": "Portfolio\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T17:53:07.803Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\ContactMessage\\Edit.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Edit.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\ContactMessage\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:12:28.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\ContactMessage\\Delete.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Delete.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\ContactMessage\\Delete.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T19:37:45.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Create.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\ContactMessage\\Create.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\ContactMessage\\Create.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\ContactMessage\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:11:35.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Create.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Experience\\Create.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Create.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Experience\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:18:05.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "PersonalInfo.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\PersonalInfo.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Entities\\PersonalInfo.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Entities\\PersonalInfo.cs",
-              "RelativeToolTip": "Portfolio\\Entities\\PersonalInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:00:36.705Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Experience\\Delete.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Delete.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Experience\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:19:05.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Portfolio",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Portfolio.csproj",
-              "RelativeDocumentMoniker": "Portfolio\\Portfolio.csproj",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Portfolio.csproj",
-              "RelativeToolTip": "Portfolio\\Portfolio.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-14T17:59:19.635Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Experience\\Edit.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Edit.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Experience\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:21:31.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Create.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Education\\Create.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Education\\Create.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Education\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:13:35.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Portfolio\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Portfolio\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\Experience\\Index.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\Experience\\Index.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\Experience\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAApwBEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-14T17:53:23.258Z",
+              "WhenOpened": "2026-06-17T20:22:13.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Portfolio\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Portfolio\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\PersonalInfo\\Create.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Create.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\PersonalInfo\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAApwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-14T17:53:19.405Z",
+              "WhenOpened": "2026-06-17T20:22:52.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Portfolio\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Portfolio\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\PersonalInfo\\Delete.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Delete.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\PersonalInfo\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-14T17:53:16.893Z",
+              "WhenOpened": "2026-06-17T20:24:37.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\PersonalInfo\\Edit.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Edit.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\PersonalInfo\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:25:21.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Views\\PersonalInfo\\Index.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\Portfolio\\Portfolio\\Views\\PersonalInfo\\Index.cshtml",
+              "RelativeToolTip": "Portfolio\\Views\\PersonalInfo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAApwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T20:27:49.43Z",
               "EditorCaption": ""
             }
           ]

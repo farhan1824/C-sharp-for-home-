@@ -1,0 +1,105 @@
+@model IEnumerable<Portfolio.Entities.PersonalInfo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+  /* PersonalInfo Index view styles */
+  .personal-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  .personal-table th, .personal-table td { padding: 0.65rem; border: 1px solid #eaeaea; text-align: left; vertical-align: middle; }
+  .personal-table th { background: #f7f9fc; font-weight: 600; color: #333; }
+  .personal-table tbody tr:hover { background: #fbfdff; }
+  .create-link { display: inline-block; padding: 0.45rem 0.75rem; background: #1b6ec2; color: #fff; border-radius: 6px; text-decoration: none; }
+  .create-link:hover { background: #165aa6; }
+  .action-links a { color: #1b6ec2; margin-right: 0.5rem; text-decoration: none; }
+  .action-links a:hover { text-decoration: underline; }
+  .empty-message { color: #666; font-style: italic; padding: 1rem 0; }
+ 
+</style>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="create-link">Create New</a>
+</p>
+<table class="table personal-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Website)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LinkedIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GitHub)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfileImageUrl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Website)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.LinkedIn)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.GitHub)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Bio)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.ProfileImageUrl)
+            </td>
+            <td>
+                <span class="action-links">
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </span>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

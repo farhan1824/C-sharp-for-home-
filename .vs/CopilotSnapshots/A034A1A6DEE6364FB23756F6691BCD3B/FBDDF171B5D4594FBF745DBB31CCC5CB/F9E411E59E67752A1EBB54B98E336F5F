@@ -1,0 +1,81 @@
+﻿@model Portfolio.Models.ExperienceVm
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+  /* Experience Edit view styles */
+  .edit-container {
+    max-width: 760px;
+    margin: 1rem auto;
+    padding: 1rem 1.25rem;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+  }
+  .edit-form .form-group { display: flex; flex-direction: column; margin-bottom: 1rem; }
+  .edit-form label { font-weight: 600; margin-bottom: 0.5rem; color: #333; }
+  .edit-form input.form-control, .edit-form textarea.form-control, .edit-form select.form-control {
+    padding: 0.6rem 0.75rem; border: 1px solid #ced4da; border-radius: 6px; transition: box-shadow 0.12s ease, border-color 0.12s ease;
+  }
+  .edit-form input.form-control:focus, .edit-form textarea.form-control:focus, .edit-form select.form-control:focus {
+    outline: none; border-color: #1b6ec2; box-shadow: 0 0 0 3px rgba(27,110,194,0.08);
+  }
+  .edit-form .btn-primary { padding: 0.5rem 0.9rem; border-radius: 6px; }
+  .edit-form .text-danger { color: #b00020; margin-top: 0.35rem; }
+  .back-link { display: inline-block; margin-top: 0.75rem; color: #1b6ec2; text-decoration: none; }
+  .back-link:hover { text-decoration: underline; }
+  @media (max-width: 576px) { .edit-container { padding: 0.75rem; } .col-md-4 { flex: 0 0 100%; max-width: 100%; } }
+</style>
+
+<h1>Edit</h1>
+
+<h4>ExperienceVm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4 edit-container">
+        <form asp-action="Edit" class="edit-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Company" class="control-label"></label>
+                <input asp-for="Company" class="form-control" />
+                <span asp-validation-for="Company" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Role" class="control-label"></label>
+                <input asp-for="Role" class="form-control" />
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
