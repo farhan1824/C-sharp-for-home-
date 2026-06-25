@@ -1,0 +1,20 @@
+## Ignore Visual Studio tool settings, caches, and history
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore Build Outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## Ignore Archiving folders
+.mono/
+_ReSharper*/

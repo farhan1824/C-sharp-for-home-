@@ -191,8 +191,29 @@ namespace Portfolio.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> Details()
+        {
+            var personalInfo = await _context.PersonalInfos
+                .FirstOrDefaultAsync();
 
+            var model = new ProfileViewVm
+            {
+                PersonalInfo = personalInfo != null ? new PersonalinfoVm
+                {
+                    FullName = personalInfo.FullName,
+                    Email = personalInfo.Email,
+                    Phone = personalInfo.Phone,
+                    Address = personalInfo.Address,
+                } : null,
 
+                Skills = await _context.Skills.ToListAsync(),
+                Education = await _context.Educations.ToListAsync(),
+                Experience = await _context.Experiences.ToListAsync()
+            };
+
+            return View(model);
+        }
     }
 
 }
+
