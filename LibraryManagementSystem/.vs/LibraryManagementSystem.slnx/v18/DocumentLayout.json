@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\farhan\\c sharp\\librarymanagementsystem\\librarymanagementsystem\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\farhan\\c sharp\\librarymanagementsystem\\librarymanagementsystem\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\farhan\\c sharp\\librarymanagementsystem\\librarymanagementsystem\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\farhan\\c sharp\\librarymanagementsystem\\librarymanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\farhan\\c sharp\\librarymanagementsystem\\librarymanagementsystem\\models\\booksvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D0B5A-1C24-3116-5E95-BA05C786EAA3}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\booksvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-04T19:01:57.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T18:56:12.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-04T18:53:41.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T18:52:55.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksVm.cs",
+              "DocumentMoniker": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\BooksVm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\BooksVm.cs",
+              "ToolTip": "C:\\Farhan\\c sharp\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\BooksVm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\BooksVm.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T15:15:38.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
