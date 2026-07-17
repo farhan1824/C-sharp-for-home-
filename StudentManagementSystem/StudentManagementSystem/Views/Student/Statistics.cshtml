@@ -1,0 +1,43 @@
+﻿@model StudentManagementSystem.Models.StudentStatisticsVm
+<h2>Student Statistics</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Total Students</th>
+        <td>@Model.TotalStudents</td>
+    </tr>
+
+    <tr>
+        <th>Passed Students</th>
+        <td>@Model.PassedStudents</td>
+    </tr>
+
+    <tr>
+        <th>Failed Students</th>
+        <td>@Model.FailedStudents</td>
+    </tr>
+
+    <tr>
+        <th>Highest Mark</th>
+        <td>@Model.HighestMark</td>
+    </tr>
+
+    <tr>
+        <th>Lowest Mark</th>
+        <td>@Model.LowestMark</td>
+    </tr>
+
+    <tr>
+        <th>Average Mark</th>
+        <td>@Model.AverageMark</td>
+    </tr>
+    <tr>
+        <th>Highest Mark Department</th>
+        <td>@Model.HighestMarkDepartment</td>
+    </tr>
+</table>
+
+<a asp-action="Index" class="btn btn-primary">
+    Back
+</a>

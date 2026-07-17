@@ -1,0 +1,24 @@
+﻿@model IEnumerable<StudentManagementSystem.Entities.Student>
+
+<h2>Students Sorted By Marks</h2>
+
+<table class="table table-striped">
+
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Mark</th>
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.StudentName</td>
+            <td>@s.Department</td>
+            <td>@s.Mark</td>
+        </tr>
+    }
+
+</table>
+
+<a asp-action="Index" class="btn btn-primary">Back</a>

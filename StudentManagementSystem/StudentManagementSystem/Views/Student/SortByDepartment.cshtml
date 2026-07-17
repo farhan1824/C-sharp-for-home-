@@ -1,0 +1,38 @@
+﻿@model IEnumerable<StudentManagementSystem.Entities.Student>
+
+<h2>Students Sorted By Department</h2>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Mark</th>
+            <th>Grade</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentName</td>
+                <td>@student.Department</td>
+                <td>@student.Mark</td>
+                <td>@student.Grade</td>
+
+                <td>
+                    @(student.IsPassed ? "Passed" : "Failed")
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+<a asp-action="Index" class="btn btn-primary">Back</a>

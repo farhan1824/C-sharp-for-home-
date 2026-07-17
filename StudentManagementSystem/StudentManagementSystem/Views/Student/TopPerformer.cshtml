@@ -1,0 +1,29 @@
+﻿@model StudentManagementSystem.Entities.Student
+
+<h2>Top Performer</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Name</th>
+        <td>@Model.StudentName</td>
+    </tr>
+
+    <tr>
+        <th>Department</th>
+        <td>@Model.Department</td>
+    </tr>
+
+    <tr>
+        <th>Mark</th>
+        <td>@Model.Mark</td>
+    </tr>
+
+    <tr>
+        <th>Grade</th>
+        <td>@Model.Grade</td>
+    </tr>
+
+</table>
+
+<a asp-action="Index" class="btn btn-primary">Back</a>
