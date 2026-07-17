@@ -1,29 +1,72 @@
 ﻿@model StudentManagementSystem.Entities.Student
 
-<h2>Top Performer</h2>
+@{
+    ViewData["Title"] = "Top Performer";
+}
 
-<table class="table table-bordered">
+<h2>@ViewData["Title"]</h2>
 
-    <tr>
-        <th>Name</th>
-        <td>@Model.StudentName</td>
-    </tr>
 
-    <tr>
-        <th>Department</th>
-        <td>@Model.Department</td>
-    </tr>
+@if (Model != null)
+{
+    <table class="table table-bordered table-striped">
 
-    <tr>
-        <th>Mark</th>
-        <td>@Model.Mark</td>
-    </tr>
+        <tbody>
 
-    <tr>
-        <th>Grade</th>
-        <td>@Model.Grade</td>
-    </tr>
+            <tr>
+                <th>Name</th>
+                <td>@Model.StudentName</td>
+            </tr>
 
-</table>
 
-<a asp-action="Index" class="btn btn-primary">Back</a>
+            <tr>
+                <th>Department</th>
+                <td>@Model.Department</td>
+            </tr>
+
+
+            <tr>
+                <th>Mark</th>
+                <td>@Model.Mark</td>
+            </tr>
+
+
+            <tr>
+                <th>Grade</th>
+                <td>@Model.Grade</td>
+            </tr>
+
+
+            <tr>
+                <th>Status</th>
+                <td>
+                    @if (Model.IsPassed)
+                    {
+                        <span class="badge bg-success">
+                            Passed
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">
+                            Failed
+                        </span>
+                    }
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        No student data available.
+    </div>
+}
+
+
+<a asp-action="Index" class="btn btn-primary">
+    Back
+</a>

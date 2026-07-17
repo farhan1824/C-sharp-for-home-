@@ -1,28 +1,64 @@
 ﻿@model StudentManagementSystem.Models.StudentEditVm
 
-<h2>Edit Student</h2>
+@{
+    ViewData["Title"] = "Edit Student";
+}
 
-<form asp-action="Edit">
+<h2>@ViewData["Title"]</h2>
+
+
+<form asp-action="Edit" method="post">
 
     <input asp-for="Id" type="hidden" />
 
+
     <div class="mb-3">
-        <label asp-for="StudentName"></label>
+
+        <label asp-for="StudentName" class="form-label"></label>
+
         <input asp-for="StudentName" class="form-control" />
+
+        <span asp-validation-for="StudentName" class="text-danger"></span>
+
     </div>
 
+
     <div class="mb-3">
-        <label asp-for="Department"></label>
+
+        <label asp-for="Department" class="form-label"></label>
+
         <input asp-for="Department" class="form-control" />
+
+        <span asp-validation-for="Department" class="text-danger"></span>
+
     </div>
+
 
     <div class="mb-3">
-        <label asp-for="Mark"></label>
+
+        <label asp-for="Mark" class="form-label"></label>
+
         <input asp-for="Mark" class="form-control" />
+
+        <span asp-validation-for="Mark" class="text-danger"></span>
+
     </div>
 
-    <button class="btn btn-primary">Update</button>
 
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    <button type="submit" class="btn btn-primary">
+        Update
+    </button>
+
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Cancel
+    </a>
 
 </form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

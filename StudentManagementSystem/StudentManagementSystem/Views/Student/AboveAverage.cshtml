@@ -1,26 +1,65 @@
 ﻿@model IEnumerable<StudentManagementSystem.Entities.Student>
 
-<h2>Above Average Students</h2>
+@{
+    ViewData["Title"] = "Above Average Students";
+}
 
-<h4>Average Mark : @ViewBag.Average</h4>
+<h2>@ViewData["Title"]</h2>
 
-<table class="table table-bordered">
 
-    <tr>
-        <th>Name</th>
-        <th>Department</th>
-        <th>Mark</th>
-    </tr>
+<h4>
+    Average Mark : @ViewBag.Average
+</h4>
 
-    @foreach (var s in Model)
-    {
+
+<table class="table table-bordered table-striped">
+
+    <thead>
         <tr>
-            <td>@s.StudentName</td>
-            <td>@s.Department</td>
-            <td>@s.Mark</td>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Mark</th>
+            <th>Grade</th>
+            <th>Status</th>
         </tr>
-    }
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentName</td>
+
+                <td>@student.Department</td>
+
+                <td>@student.Mark</td>
+
+                <td>@student.Grade</td>
+
+                <td>
+                    @if (student.IsPassed)
+                    {
+                        <span class="badge bg-success">
+                            Passed
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">
+                            Failed
+                        </span>
+                    }
+                </td>
+            </tr>
+        }
+
+    </tbody>
 
 </table>
 
-<a asp-action="Index" class="btn btn-primary">Back</a>
+
+<a asp-action="Index" class="btn btn-primary">
+    Back
+</a>

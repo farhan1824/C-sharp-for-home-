@@ -1,59 +1,158 @@
 ﻿@model IEnumerable<StudentManagementSystem.Entities.Student>
 
 @{
-    ViewData["Title"] = "Students";
+    ViewData["Title"] = "Student List";
 }
 
-<h2>Student List</h2>
+<h2>@ViewData["Title"]</h2>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Add Student</a>
-    <a asp-action="PassedStudents" class="btn btn-success">Passed Students</a>
-    <a asp-action="Statistics" class="btn btn-info">Statistics</a>
-    <a asp-action="TopPerformer" class="btn btn-warning">Top Performer</a>
-    <a asp-action="SortByMarks" class="btn btn-secondary">Sort By Marks</a>
-    <a asp-action="SortByDepartment"class="btn btn-info">Sort By Department</a>
-    <a asp-action="HighestMarkDepartment" class="btn btn-warning">Highest Mark Department</a>
-</p>
 
-<form asp-action="SearchByName" method="get" class="mb-3">
-    <input type="text" name="name" class="form-control" placeholder="Search by Name" />
-    <button class="btn btn-primary mt-2">Search</button>
+<div class="mb-3">
+
+    <a asp-action="Create" class="btn btn-primary">
+        Add Student
+    </a>
+
+    <a asp-action="PassedStudents" class="btn btn-success">
+        Passed Students
+    </a>
+
+    <a asp-action="Statistics" class="btn btn-info">
+        Statistics
+    </a>
+
+    <a asp-action="TopPerformer" class="btn btn-warning">
+        Top Performer
+    </a>
+
+    <a asp-action="SortByMarks" class="btn btn-secondary">
+        Sort By Marks
+    </a>
+
+    <a asp-action="SortByDepartment" class="btn btn-info">
+        Sort By Department
+    </a>
+
+    <a asp-action="HighestMarkDepartment" class="btn btn-warning">
+        Highest Mark Department
+    </a>
+
+</div>
+
+
+
+<form asp-action="SearchByName" method="get" class="mb-4">
+
+    <div class="input-group">
+
+        <input type="text"
+               name="name"
+               class="form-control"
+               placeholder="Search student by name" />
+
+        <button type="submit" class="btn btn-primary">
+            Search
+        </button>
+
+    </div>
+
 </form>
 
+
+
 <table class="table table-bordered table-hover">
+
     <thead class="table-dark">
+
         <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Department</th>
             <th>Mark</th>
             <th>Grade</th>
-            <th>Passed</th>
-            <th></th>
+            <th>Status</th>
+            <th>Actions</th>
         </tr>
+
     </thead>
 
+
     <tbody>
-        @foreach (var item in Model)
+
+        @foreach (var student in Model)
         {
             <tr>
-                <td>@item.Id</td>
-                <td>@item.StudentName</td>
-                <td>@item.Department</td>
-                <td>@item.Mark</td>
-                <td>@item.Grade</td>
-                <td>@item.IsPassed</td>
 
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
-
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
-
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    @student.Id
                 </td>
+
+
+                <td>
+                    @student.StudentName
+                </td>
+
+
+                <td>
+                    @student.Department
+                </td>
+
+
+                <td>
+                    @student.Mark
+                </td>
+
+
+                <td>
+                    @student.Grade
+                </td>
+
+
+                <td>
+
+                    @if (student.IsPassed)
+                    {
+                        <span class="badge bg-success">
+                            Passed
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">
+                            Failed
+                        </span>
+                    }
+
+                </td>
+
+
+                <td>
+
+                    <a asp-action="Details"
+                       asp-route-id="@student.Id"
+                       class="btn btn-info btn-sm">
+                        Details
+                    </a>
+
+
+                    <a asp-action="Edit"
+                       asp-route-id="@student.Id"
+                       class="btn btn-warning btn-sm">
+                        Edit
+                    </a>
+
+
+                    <a asp-action="Delete"
+                       asp-route-id="@student.Id"
+                       class="btn btn-danger btn-sm">
+                        Delete
+                    </a>
+
+                </td>
+
             </tr>
         }
+
     </tbody>
 
 </table>

@@ -1,10 +1,16 @@
 ﻿@model IEnumerable<StudentManagementSystem.Entities.Student>
 
-<h2>Students Sorted By Department</h2>
+@{
+    ViewData["Title"] = "Students Sorted By Department";
+}
 
-<table class="table table-bordered">
+<h2>@ViewData["Title"]</h2>
+
+
+<table class="table table-bordered table-striped">
 
     <thead>
+
         <tr>
             <th>Name</th>
             <th>Department</th>
@@ -12,6 +18,7 @@
             <th>Grade</th>
             <th>Status</th>
         </tr>
+
     </thead>
 
 
@@ -20,13 +27,42 @@
         @foreach (var student in Model)
         {
             <tr>
-                <td>@student.StudentName</td>
-                <td>@student.Department</td>
-                <td>@student.Mark</td>
-                <td>@student.Grade</td>
 
                 <td>
-                    @(student.IsPassed ? "Passed" : "Failed")
+                    @student.StudentName
+                </td>
+
+
+                <td>
+                    @student.Department
+                </td>
+
+
+                <td>
+                    @student.Mark
+                </td>
+
+
+                <td>
+                    @student.Grade
+                </td>
+
+
+                <td>
+
+                    @if (student.IsPassed)
+                    {
+                        <span class="badge bg-success">
+                            Passed
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">
+                            Failed
+                        </span>
+                    }
+
                 </td>
 
             </tr>
@@ -35,4 +71,8 @@
     </tbody>
 
 </table>
-<a asp-action="Index" class="btn btn-primary">Back</a>
+
+
+<a asp-action="Index" class="btn btn-primary">
+    Back
+</a>

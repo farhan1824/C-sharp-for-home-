@@ -1,33 +1,54 @@
 ﻿@model StudentManagementSystem.Models.HighestMarkDepartmentVm
 
-<h2>Highest Mark In Department</h2>
+@{
+    ViewData["Title"] = "Highest Mark By Department";
+}
+
+<h2>@ViewData["Title"]</h2>
 
 
 <form asp-action="HighestMarkDepartment" method="post">
 
     @Html.AntiForgeryToken()
 
-    <select asp-for="Department" class="form-control">
 
-        <option value="">
+    <div class="mb-3">
+
+        <label asp-for="Department" class="form-label">
             Select Department
-        </option>
+        </label>
 
 
-        @foreach (var dept in Model.Departments)
-        {
-            <option value="@dept">
-                @dept
+        <select asp-for="Department" class="form-select">
+
+            <option value="">
+                -- Select Department --
             </option>
-        }
-
-    </select>
 
 
-    <button type="submit" class="btn btn-primary mt-2">
+            @foreach (var department in Model.Departments)
+            {
+                <option value="@department">
+                    @department
+                </option>
+            }
+
+        </select>
+
+
+        <span asp-validation-for="Department" class="text-danger"></span>
+
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">
         Show Highest Mark
     </button>
-    <a asp-action="Index" class="btn btn-danger mt-2">Back</a>
+
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Back
+    </a>
 
 </form>
 
@@ -35,40 +56,87 @@
 
 @if (Model.TopStudent != null)
 {
-    <hr />
+    <hr class="my-4" />
+
 
     <h4>
         Highest Mark Student in @Model.Department
     </h4>
 
 
-    <table class="table table-bordered">
-
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Department</th>
-                <th>Mark</th>
-                <th>Grade</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-
+    <table class="table table-bordered table-striped mt-3">
 
         <tbody>
 
             <tr>
-                <td>@Model.TopStudent.StudentName</td>
-                <td>@Model.TopStudent.Department</td>
-                <td>@Model.TopStudent.Mark</td>
-                <td>@Model.TopStudent.Grade</td>
-
+                <th style="width:30%;">
+                    Name
+                </th>
                 <td>
-                    @(Model.TopStudent.IsPassed ? "Passed" : "Failed")
+                    @Model.TopStudent.StudentName
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>
+                    Department
+                </th>
+                <td>
+                    @Model.TopStudent.Department
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>
+                    Mark
+                </th>
+                <td>
+                    @Model.TopStudent.Mark
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>
+                    Grade
+                </th>
+                <td>
+                    @Model.TopStudent.Grade
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>
+                    Status
+                </th>
+                <td>
+
+                    @if (Model.TopStudent.IsPassed)
+                    {
+                        <span class="badge bg-success">
+                            Passed
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">
+                            Failed
+                        </span>
+                    }
+
                 </td>
             </tr>
 
         </tbody>
 
     </table>
+}
+else if (!string.IsNullOrEmpty(Model.Department))
+{
+    <div class="alert alert-warning mt-4">
+        No student found in this department.
+    </div>
 }

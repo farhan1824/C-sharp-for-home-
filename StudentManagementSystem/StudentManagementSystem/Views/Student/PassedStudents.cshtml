@@ -1,26 +1,65 @@
 ﻿@model IEnumerable<StudentManagementSystem.Entities.Student>
 
-<h2>Passed Students</h2>
+@{
+    ViewData["Title"] = "Passed Students";
+}
 
-<table class="table table-bordered">
+<h2>@ViewData["Title"]</h2>
 
-    <tr>
-        <th>Name</th>
-        <th>Department</th>
-        <th>Mark</th>
-        <th>Grade</th>
-    </tr>
 
-    @foreach (var s in Model)
-    {
+<table class="table table-bordered table-striped">
+
+    <thead>
         <tr>
-            <td>@s.StudentName</td>
-            <td>@s.Department</td>
-            <td>@s.Mark</td>
-            <td>@s.Grade</td>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Mark</th>
+            <th>Grade</th>
+            <th>Status</th>
         </tr>
-    }
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var student in Model)
+        {
+            <tr>
+
+                <td>
+                    @student.StudentName
+                </td>
+
+
+                <td>
+                    @student.Department
+                </td>
+
+
+                <td>
+                    @student.Mark
+                </td>
+
+
+                <td>
+                    @student.Grade
+                </td>
+
+
+                <td>
+                    <span class="badge bg-success">
+                        Passed
+                    </span>
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
 
 </table>
 
-<a asp-action="Index" class="btn btn-primary">Back</a>
+
+<a asp-action="Index" class="btn btn-primary">
+    Back
+</a>
