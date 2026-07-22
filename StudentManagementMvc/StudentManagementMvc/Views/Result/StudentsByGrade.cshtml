@@ -1,0 +1,59 @@
+﻿@model IEnumerable<StudentManagementMvc.Entities.Student>
+
+
+<h2>
+    Students By Grade
+</h2>
+
+
+
+<table class="table">
+
+
+    <thead>
+
+        <tr>
+
+            <th>
+                Student Name
+            </th>
+
+
+            <th>
+                Student ID
+            </th>
+
+
+        </tr>
+
+    </thead>
+
+
+
+    <tbody>
+
+
+        @foreach (var student in Model)
+        {
+
+            <tr>
+
+                <td>
+                    @student.StudentName
+                </td>
+
+
+                <td>
+                    @student.StudentId
+                </td>
+
+
+            </tr>
+
+        }
+
+
+    </tbody>
+
+
+</table>

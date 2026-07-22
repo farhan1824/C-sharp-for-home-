@@ -1,0 +1,78 @@
+﻿@model IEnumerable<StudentManagementMvc.Entities.Student>
+
+
+<h2>
+    Students Sorted By Mark
+</h2>
+
+
+
+<table class="table">
+
+
+    <thead>
+
+        <tr>
+
+            <th>
+                Student Name
+            </th>
+
+
+            <th>
+                Student ID
+            </th>
+
+
+            <th>
+                Average Mark
+            </th>
+
+
+        </tr>
+
+    </thead>
+
+
+
+
+    <tbody>
+
+
+        @foreach (var student in Model)
+        {
+
+            <tr>
+
+
+                <td>
+                    @student.StudentName
+                </td>
+
+
+                <td>
+                    @student.StudentId
+                </td>
+
+
+                <td>
+
+                    @(student.StudentSubjects.Any()
+                    ?
+                    student.StudentSubjects.Average(x => x.Mark)
+                    :
+                    0)
+
+                </td>
+
+
+            </tr>
+
+
+        }
+
+
+    </tbody>
+
+
+</table>

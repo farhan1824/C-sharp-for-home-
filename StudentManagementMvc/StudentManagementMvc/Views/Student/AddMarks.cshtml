@@ -1,0 +1,119 @@
+﻿@model StudentManagementMvc.Models.StudentMarkVm
+
+
+
+<h2>
+    Add Marks
+</h2>
+
+
+
+<h4>
+    Student:
+    @Model.StudentName
+</h4>
+
+
+
+
+<form asp-action="AddMarks"
+      method="post">
+
+
+
+    <input asp-for="StudentId" hidden />
+
+
+
+
+
+    <table class="table">
+
+
+        <thead>
+
+            <tr>
+
+                <th>
+                    Subject
+                </th>
+
+
+                <th>
+                    Mark
+                </th>
+
+
+            </tr>
+
+        </thead>
+
+
+
+
+
+        <tbody>
+
+
+
+            @for (int i = 0; i < Model.Subjects.Count; i++)
+            {
+
+
+                <tr>
+
+
+                    <td>
+
+
+                        @Model.Subjects[i].SubjectName
+
+
+
+                        <input asp-for="Subjects[i].SubjectId"
+                               hidden />
+
+
+
+                    </td>
+
+
+
+
+
+                    <td>
+
+
+                        <input asp-for="Subjects[i].Mark"
+                               class="form-control" />
+
+
+                    </td>
+
+
+
+                </tr>
+
+
+            }
+
+
+
+        </tbody>
+
+
+    </table>
+
+
+
+
+
+    <button class="btn btn-primary">
+
+        Save Marks
+
+    </button>
+
+
+
+</form>

@@ -1,0 +1,39 @@
+﻿@model StudentManagementMvc.Entities.Student
+
+
+
+<h2>
+    Top Performer
+</h2>
+
+
+
+
+<div class="card p-3">
+
+
+    <h4>
+        @Model.StudentName
+    </h4>
+
+
+    <p>
+        Student ID:
+        @Model.StudentId
+    </p>
+
+
+    <p>
+
+        Average Mark:
+
+        @(Model.StudentSubjects.Any()
+        ?
+        Model.StudentSubjects.Average(x => x.Mark)
+        :
+        0)
+
+    </p>
+
+
+</div>

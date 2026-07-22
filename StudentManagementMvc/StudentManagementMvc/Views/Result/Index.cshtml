@@ -1,0 +1,92 @@
+﻿@model IEnumerable<StudentManagementMvc.Entities.Student>
+
+@{
+    ViewData["Title"] = "Student Results";
+}
+
+
+<h2>Student Results</h2>
+
+
+<table class="table table-bordered">
+
+
+    <thead>
+
+        <tr>
+
+            <th>
+                Student Name
+            </th>
+
+
+            <th>
+                Student ID
+            </th>
+
+
+            <th>
+                Department
+            </th>
+
+
+            <th>
+                Action
+            </th>
+
+
+        </tr>
+
+    </thead>
+
+
+
+    <tbody>
+
+
+        @foreach (var student in Model)
+        {
+
+            <tr>
+
+
+                <td>
+                    @student.StudentName
+                </td>
+
+
+                <td>
+                    @student.StudentId
+                </td>
+
+
+                <td>
+                    @student.Department.DepartmentName
+                </td>
+
+
+
+                <td>
+
+                    <a asp-action="StudentResult"
+                       asp-route-id="@student.Id"
+                       class="btn btn-primary">
+
+                        View Result
+
+                    </a>
+
+
+                </td>
+
+
+            </tr>
+
+
+        }
+
+
+    </tbody>
+
+
+</table>

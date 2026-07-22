@@ -1,0 +1,41 @@
+﻿@model StudentManagementMvc.Entities.Subject
+
+
+
+<h2>Delete Subject</h2>
+
+
+
+
+<h4>
+    Are you sure you want to delete
+    @Model.SubjectName?
+</h4>
+
+
+
+
+<form asp-action="Delete">
+
+
+    <input asp-for="Id" hidden />
+
+
+
+    <button class="btn btn-danger">
+
+        Delete
+
+    </button>
+
+
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+
+        Cancel
+
+    </a>
+
+
+</form>

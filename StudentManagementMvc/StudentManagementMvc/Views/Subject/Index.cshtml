@@ -1,0 +1,72 @@
+﻿@model IEnumerable<StudentManagementMvc.Entities.Subject>
+
+<h2>Subjects</h2>
+
+
+<a asp-action="Create" class="btn btn-primary">
+    Add Subject
+</a>
+
+
+<table class="table mt-3">
+
+    <thead>
+        <tr>
+
+            <th>
+                Subject Name
+            </th>
+
+            <th>
+                Department
+            </th>
+
+            <th>
+                Action
+            </th>
+
+        </tr>
+    </thead>
+
+
+
+    <tbody>
+
+        @foreach (var subject in Model)
+        {
+            <tr>
+
+                <td>
+                    @subject.SubjectName
+                </td>
+
+
+                <td>
+                    @subject.Department.DepartmentName
+                </td>
+
+
+                <td>
+
+                    <a asp-action="Edit"
+                       asp-route-id="@subject.Id"
+                       class="btn btn-warning">
+                        Edit
+                    </a>
+
+
+                    <a asp-action="Delete"
+                       asp-route-id="@subject.Id"
+                       class="btn btn-danger">
+                        Delete
+                    </a>
+
+                </td>
+
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

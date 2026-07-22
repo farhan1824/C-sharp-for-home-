@@ -1,0 +1,28 @@
+﻿@model StudentManagementMvc.Models.DepartmentEditVm
+
+
+<h2>Edit Department</h2>
+
+
+<form asp-action="Edit" method="post">
+
+
+    <input asp-for="Id" hidden />
+
+
+    <div class="mb-3">
+
+        <label asp-for="DepartmentName"></label>
+
+        <input asp-for="DepartmentName"
+               class="form-control" />
+
+    </div>
+
+
+    <button class="btn btn-primary">
+        Update
+    </button>
+
+
+</form>

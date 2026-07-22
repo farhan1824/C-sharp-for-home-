@@ -1,0 +1,96 @@
+﻿@model StudentManagementMvc.Models.StudentEditVm
+
+
+
+<h2>Edit Student</h2>
+
+
+
+
+<form asp-action="Edit"
+      method="post">
+
+
+
+    <input asp-for="Id" hidden />
+
+
+
+
+
+    <div class="mb-3">
+
+        <label asp-for="StudentName"></label>
+
+        <input asp-for="StudentName"
+               class="form-control" />
+
+    </div>
+
+
+
+
+
+
+    <div class="mb-3">
+
+        <label>
+            Student Code
+        </label>
+
+
+        <input asp-for="StudentCode"
+               class="form-control" />
+
+
+    </div>
+
+
+
+
+
+
+    <div class="mb-3">
+
+        <label>
+            Department
+        </label>
+
+
+
+        <select asp-for="DepartmentId"
+                class="form-control">
+
+
+            @foreach (var department in Model.Departments)
+            {
+
+                <option value="@department.Id">
+
+                    @department.DepartmentName
+
+                </option>
+
+
+            }
+
+
+        </select>
+
+
+
+    </div>
+
+
+
+
+
+
+    <button class="btn btn-primary">
+
+        Update
+
+    </button>
+
+
+</form>

@@ -1,0 +1,137 @@
+﻿@model StudentManagementMvc.Models.StudentResultVm
+
+
+<h2>
+    Student Result
+</h2>
+
+
+<div class="card p-3 mb-3">
+
+
+    <h4>
+        @Model.StudentName
+    </h4>
+
+
+    <p>
+        Student ID:
+        @Model.StudentId
+    </p>
+
+
+    <p>
+        Department:
+        @Model.DepartmentName
+    </p>
+
+
+</div>
+
+
+
+
+<table class="table table-bordered">
+
+
+    <thead>
+
+        <tr>
+
+            <th>
+                Subject
+            </th>
+
+
+            <th>
+                Mark
+            </th>
+
+
+        </tr>
+
+    </thead>
+
+
+
+    <tbody>
+
+
+        @foreach (var mark in Model.Subjects)
+        {
+
+            @foreach (var subject in mark.Subjects)
+            {
+
+                <tr>
+
+                    <td>
+                        @subject.SubjectName
+                    </td>
+
+
+                    <td>
+                        @subject.Mark
+                    </td>
+
+
+                </tr>
+
+            }
+
+        }
+
+
+    </tbody>
+
+
+</table>
+
+
+
+
+
+<h4>
+    Average Mark:
+    @Model.AverageMark
+</h4>
+
+
+<h4>
+    CGPA:
+    @Model.CGPA
+</h4>
+
+
+<h4>
+    Grade:
+    @Model.Grade
+</h4>
+
+
+<h4>
+
+    Status:
+
+    @if (Model.IsPassed)
+    {
+        <span class="text-success">
+            Passed
+        </span>
+    }
+    else
+    {
+        <span class="text-danger">
+            Failed
+        </span>
+    }
+
+</h4>
+
+<div class="mt-4">
+    <button type="button"
+            class="btn btn-secondary"
+            onclick="history.back()">
+        ← Back
+    </button>
+</div>
