@@ -32,30 +32,15 @@ namespace StudentManagementMvc.Controllers
             return View(students);
         }
 
-
-
-
-
-
-
-        // GET Create Student
         public async Task<IActionResult> Create()
         {
-            StudentAddVm vm = new()
+            var model = new StudentAddVm
             {
-                Departments = await _context.Departments
-                    .ToListAsync()
+                Departments = await _context.Departments.ToListAsync()
             };
 
-
-            return View(vm);
+            return View(model);
         }
-
-
-
-
-
-
 
         // POST Create Student
         [HttpPost]
@@ -64,7 +49,7 @@ namespace StudentManagementMvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                Student student = new()
+                Student student = new Student
                 {
                     StudentName = vm.StudentName,
 
@@ -81,12 +66,6 @@ namespace StudentManagementMvc.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-
-
-            // Reload departments when validation fails
-            vm.Departments = await _context.Departments
-                .ToListAsync();
-
 
             return View(vm);
         }
@@ -119,7 +98,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-            StudentMarkVm vm = new()
+            StudentMarkVm vm = new StudentMarkVm
             {
                 StudentId = student.Id,
 
@@ -146,13 +125,6 @@ namespace StudentManagementMvc.Controllers
 
         }
 
-
-
-
-
-
-
-
         // Save Marks
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -173,7 +145,7 @@ namespace StudentManagementMvc.Controllers
                 }
                 else
                 {
-                    StudentSubject studentSubject = new()
+                    StudentSubject studentSubject = new StudentSubject
                     {
                         StudentId = vm.StudentId,
 
@@ -197,14 +169,6 @@ namespace StudentManagementMvc.Controllers
               
             );
         }
-
-
-
-
-
-
-
-
         // GET Edit Student
         public async Task<IActionResult> Edit(int id)
         {

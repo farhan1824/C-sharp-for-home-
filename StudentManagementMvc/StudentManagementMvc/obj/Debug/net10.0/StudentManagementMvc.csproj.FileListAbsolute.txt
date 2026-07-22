@@ -575,10 +575,10 @@ C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\st
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\staticwebassets.development.json
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\swae.build.ex.cache
-C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\StudentM.01969DE4.Up2Date
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\StudentManagementMvc.dll
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\refint\StudentManagementMvc.dll
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\StudentManagementMvc.pdb
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\StudentManagementMvc.genruntimeconfig.cache
 C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\ref\StudentManagementMvc.dll
+C:\Farhan\c sharp\StudentManagementMvc\StudentManagementMvc\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
