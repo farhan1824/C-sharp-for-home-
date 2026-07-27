@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Farhan\\c sharp\\StudentManagementMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\models\\departmentcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\models\\departmentcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\models\\departmenteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\models\\departmenteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\models\\studenteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\models\\studenteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\models\\studentaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\models\\studentaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\models\\subjectcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\models\\subjectcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\models\\subjecteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\models\\subjecteditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|c:\\farhan\\c sharp\\studentmanagementmvc\\studentmanagementmvc\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1607E0EC-199C-3F18-945F-23BB14197DEF}|StudentManagementMvc\\StudentManagementMvc.csproj|solutionrelative:studentmanagementmvc\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,132 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentEditVm.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\DepartmentEditVm.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Models\\DepartmentEditVm.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\DepartmentEditVm.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Models\\DepartmentEditVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:10:47.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DepartmentCreateVm.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\DepartmentCreateVm.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Models\\DepartmentCreateVm.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\DepartmentCreateVm.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Models\\DepartmentCreateVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:10:45.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentEditVm.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\StudentEditVm.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Models\\StudentEditVm.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\StudentEditVm.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Models\\StudentEditVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:10:36.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentAddVm.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\StudentAddVm.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Models\\StudentAddVm.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\StudentAddVm.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Models\\StudentAddVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:10:33.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SubjectEditVm.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\SubjectEditVm.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Models\\SubjectEditVm.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\SubjectEditVm.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Models\\SubjectEditVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:10:09.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SubjectCreateVm.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\SubjectCreateVm.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Models\\SubjectCreateVm.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Models\\SubjectCreateVm.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Models\\SubjectCreateVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:10:05.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "StudentManagementMvc\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-27T18:05:29.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentManagementMvc\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Controllers\\StudentController.cs",
               "RelativeToolTip": "StudentManagementMvc\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAADwvx8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T18:01:30.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Entities\\Student.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Entities\\Student.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Entities\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T16:27:31.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResultController.cs",
-              "DocumentMoniker": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Controllers\\ResultController.cs",
-              "RelativeDocumentMoniker": "StudentManagementMvc\\Controllers\\ResultController.cs",
-              "ToolTip": "C:\\Farhan\\c sharp\\StudentManagementMvc\\StudentManagementMvc\\Controllers\\ResultController.cs",
-              "RelativeToolTip": "StudentManagementMvc\\Controllers\\ResultController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T14:25:28.279Z",
+              "WhenOpened": "2026-07-27T18:31:55.359Z",
               "EditorCaption": ""
             }
           ]

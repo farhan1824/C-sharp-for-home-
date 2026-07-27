@@ -2,7 +2,7 @@
 
 namespace StudentManagementMvc.Models
 {
-    public class SubjectEditVm
+    public class SubjectVm
     {
         public int Id { get; set; }
         public string SubjectName { get; set; } = string.Empty;

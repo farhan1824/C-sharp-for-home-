@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentManagementMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01e8bd7ca90be9c5439ce424dbecc7d5eb986ba8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a906f916e3127c02ea34901282d58d0007d5ee5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentManagementMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentManagementMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

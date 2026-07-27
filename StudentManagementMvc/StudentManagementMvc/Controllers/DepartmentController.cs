@@ -40,7 +40,7 @@ namespace StudentManagementMvc.Controllers
         // POST: Department/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(DepartmentCreateVm vm)
+        public async Task<IActionResult> Create(DepartmentVm vm)
         {
 
             if (ModelState.IsValid)
@@ -80,7 +80,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-            DepartmentEditVm vm = new DepartmentEditVm
+            DepartmentVm vm = new DepartmentVm
             {
                 Id = department.Id,
                 DepartmentName = department.DepartmentName
@@ -98,7 +98,7 @@ namespace StudentManagementMvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(
-            DepartmentEditVm vm)
+            DepartmentVm vm)
         {
 
             if (ModelState.IsValid)

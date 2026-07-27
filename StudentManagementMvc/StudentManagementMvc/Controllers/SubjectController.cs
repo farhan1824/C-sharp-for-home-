@@ -38,7 +38,7 @@ namespace StudentManagementMvc.Controllers
         public async Task<IActionResult> Create()
         {
 
-            SubjectCreateVm vm = new()
+            SubjectVm vm = new SubjectVm
             {
                 Departments = await _context.Departments.ToListAsync()
             };
@@ -54,7 +54,7 @@ namespace StudentManagementMvc.Controllers
         // POST: Subject/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(SubjectCreateVm vm)
+        public async Task<IActionResult> Create(SubjectVm vm)
         {
 
             if (ModelState.IsValid)
@@ -100,7 +100,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-            SubjectEditVm vm = new()
+            SubjectVm vm = new SubjectVm
             {
                 Id = subject.Id,
                 SubjectName = subject.SubjectName,
@@ -121,7 +121,7 @@ namespace StudentManagementMvc.Controllers
         // POST: Subject/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(SubjectEditVm vm)
+        public async Task<IActionResult> Edit(SubjectVm vm)
         {
 
             if (ModelState.IsValid)

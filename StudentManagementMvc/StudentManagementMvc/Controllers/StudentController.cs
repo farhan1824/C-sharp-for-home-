@@ -17,11 +17,6 @@ namespace StudentManagementMvc.Controllers
             _context = context;
         }
 
-
-
-
-
-        // Display All Students
         public async Task<IActionResult> Index()
         {
             var students = await _context.Students
@@ -34,18 +29,16 @@ namespace StudentManagementMvc.Controllers
 
         public async Task<IActionResult> Create()
         {
-            var model = new StudentAddVm
+            var model = new StudentVm
             {
                 Departments = await _context.Departments.ToListAsync()
             };
 
             return View(model);
         }
-
-        // POST Create Student
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(StudentAddVm vm)
+        public async Task<IActionResult> Create(StudentVm vm)
         {
             if (ModelState.IsValid)
             {
@@ -69,14 +62,6 @@ namespace StudentManagementMvc.Controllers
 
             return View(vm);
         }
-
-
-
-
-
-
-
-        // Add Marks Page
         public async Task<IActionResult> AddMarks(int id)
         {
 
@@ -105,8 +90,8 @@ namespace StudentManagementMvc.Controllers
                 StudentName = student.StudentName,
 
                 Subjects = subjects
-    .Select(s =>
-    {
+                 .Select(s =>
+                {
         var existingMark = student.StudentSubjects
             .FirstOrDefault(ss => ss.SubjectId == s.Id);
 
@@ -116,16 +101,14 @@ namespace StudentManagementMvc.Controllers
             SubjectName = s.SubjectName,
             Mark = existingMark != null ? existingMark.Mark : 0
         };
-    })
-    .ToList()
+             })
+                 .ToList()
             };
 
 
             return View(vm);
 
         }
-
-        // Save Marks
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddMarks(StudentMarkVm vm)
@@ -169,7 +152,6 @@ namespace StudentManagementMvc.Controllers
               
             );
         }
-        // GET Edit Student
         public async Task<IActionResult> Edit(int id)
         {
 
@@ -183,18 +165,13 @@ namespace StudentManagementMvc.Controllers
 
 
 
-            StudentEditVm vm = new()
+            StudentVm vm = new StudentVm
             {
                 Id = student.Id,
-
                 StudentName = student.StudentName,
-
-                StudentCode = student.StudentId,
-
+                StudentId = student.StudentId,
                 DepartmentId = student.DepartmentId,
-
-                Departments = await _context.Departments
-                    .ToListAsync()
+                Departments = await _context.Departments.ToListAsync()
             };
 
 
@@ -202,17 +179,9 @@ namespace StudentManagementMvc.Controllers
 
         }
 
-
-
-
-
-
-
-
-        // POST Edit Student
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(StudentEditVm vm)
+        public async Task<IActionResult> Edit(StudentVm vm)
         {
 
             if (ModelState.IsValid)
@@ -230,7 +199,7 @@ namespace StudentManagementMvc.Controllers
 
                 student.StudentName = vm.StudentName;
 
-                student.StudentId = vm.StudentCode;
+                student.StudentId = vm.StudentId;
 
                 student.DepartmentId = vm.DepartmentId;
 
@@ -251,15 +220,6 @@ namespace StudentManagementMvc.Controllers
             return View(vm);
         }
 
-
-
-
-
-
-
-
-
-        // Delete Student
         public async Task<IActionResult> Delete(int id)
         {
 
@@ -276,12 +236,6 @@ namespace StudentManagementMvc.Controllers
 
             return View(student);
         }
-
-
-
-
-
-
 
 
         [HttpPost, ActionName("Delete")]
@@ -308,15 +262,6 @@ namespace StudentManagementMvc.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
-
-
-
-
-
-
-        // Search By Student ID
         public async Task<IActionResult> SearchById(string studentId)
         {
 
@@ -329,14 +274,6 @@ namespace StudentManagementMvc.Controllers
 
             return View("Index", students);
         }
-
-
-
-
-
-
-
-
 
         // Search By Student Name
         public async Task<IActionResult> SearchByName(string name)
