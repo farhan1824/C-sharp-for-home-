@@ -8,7 +8,7 @@
 
         public string DepartmentName { get; set; }
 
-        public List<StudentMarkVm> Subjects { get; set; }
+        public List<StudentSubjectVm> Subjects { get; set; }
 
         public double AverageMark { get; set; }
 

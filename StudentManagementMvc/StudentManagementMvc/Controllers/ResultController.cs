@@ -31,7 +31,7 @@ namespace StudentManagementMvc.Controllers
             var student = await _context.Students
                 .Include(s => s.Department)
                 .Include(s => s.StudentSubjects)
-                    .ThenInclude(ss => ss.Subject)
+                .ThenInclude(ss => ss.Subject)
                 .FirstOrDefaultAsync(s => s.Id == id);
 
 
@@ -39,12 +39,18 @@ namespace StudentManagementMvc.Controllers
                 return NotFound();
 
 
+            double average = student.StudentSubjects.Any()
+                ? student.StudentSubjects.Average(x => x.Mark)
+                : 0;
 
-            var studentMarks = new StudentMarkVm
+
+            var vm = new StudentResultVm
             {
-                StudentId = student.Id,
-
                 StudentName = student.StudentName,
+
+                StudentId = student.StudentId,
+
+                DepartmentName = student.Department.DepartmentName,
 
                 Subjects = student.StudentSubjects
                     .Select(ss => new StudentSubjectVm
@@ -56,29 +62,7 @@ namespace StudentManagementMvc.Controllers
                         Mark = ss.Mark
 
                     })
-                    .ToList()
-            };
-
-
-
-            double average = student.StudentSubjects.Any()
-                ? student.StudentSubjects.Average(x => x.Mark)
-                : 0;
-
-
-
-            StudentResultVm vm = new()
-            {
-                StudentName = student.StudentName,
-
-                StudentId = student.StudentId,
-
-                DepartmentName = student.Department.DepartmentName,
-
-                Subjects = new List<StudentMarkVm>
-                {
-                    studentMarks
-                },
+                    .ToList(),
 
                 AverageMark = average,
 
@@ -95,36 +79,59 @@ namespace StudentManagementMvc.Controllers
         }
 
 
-        // Display Students By Grade
-        public async Task<IActionResult> StudentsByGrade(string grade)
+        public async Task<IActionResult> StudentsByGrade()
         {
             var students = await _context.Students
+                .Include(s => s.Department)
                 .Include(s => s.StudentSubjects)
                 .ToListAsync();
 
 
+            List<StudentResultVm> result = new();
 
-            var result = students
-      .Where(s =>
-          CalculateGrade(
-              s.StudentSubjects.Any()
-              ? s.StudentSubjects.Average(x => x.Mark)
-              : 0
-          ) == grade)
-      .ToList();
+
+            foreach (var student in students)
+            {
+                double average = 0;
+
+
+                if (student.StudentSubjects.Any())
+                {
+                    average = student.StudentSubjects.Average(x => x.Mark);
+                }
+
+
+                StudentResultVm vm = new()
+                {
+                    StudentName = student.StudentName,
+
+                    StudentId = student.StudentId,
+
+                    DepartmentName = student.Department.DepartmentName,
+
+                    AverageMark = average,
+
+                    CGPA = CalculateCGPA(average),
+
+                    Grade = CalculateGrade(average),
+
+                    IsPassed = student.StudentSubjects
+                        .All(x => x.Mark >= 40)
+                };
+
+
+                result.Add(vm);
+            }
+
+
+            result = result
+                .OrderBy(s => GetGradeRank(s.Grade))
+                .ToList();
 
 
             return View(result);
         }
 
-
-
-
-
-
-
-
-        // Sort Students By Average Mark
         public async Task<IActionResult> SortByMark()
         {
             var students = await _context.Students
@@ -132,18 +139,17 @@ namespace StudentManagementMvc.Controllers
                 .ToListAsync();
 
 
-
             var result = students
                 .OrderByDescending(s =>
-                    s.StudentSubjects.Average(x => x.Mark))
+                    s.StudentSubjects.Any()
+                    ? s.StudentSubjects.Average(x => x.Mark)
+                    : 0
+                )
                 .ToList();
-
 
 
             return View(result);
         }
-
-
 
 
 
@@ -187,7 +193,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-            StatisticsVm vm = new()
+            StatisticsVm vm = new StatisticsVm
             {
                 TotalStudents = students.Count,
 
@@ -213,15 +219,6 @@ namespace StudentManagementMvc.Controllers
 
             return View(vm);
         }
-
-
-
-
-
-
-
-
-
 
         private double CalculateCGPA(double average)
         {
@@ -257,12 +254,6 @@ namespace StudentManagementMvc.Controllers
         }
 
 
-
-
-
-
-
-
         private string CalculateGrade(double average)
         {
             if (average >= 80)
@@ -291,6 +282,22 @@ namespace StudentManagementMvc.Controllers
 
 
             return "F";
+        }
+        private int GetGradeRank(string grade)
+        {
+            return grade switch
+            {
+                "A+" => 1,
+                "A" => 2,
+                "A-" => 3,
+                "B+" => 4,
+                "B" => 5,
+                "C+" => 6,
+                "C" => 7,
+                "D" => 8,
+                "F" => 9,
+                _ => 10
+            };
         }
     }
 }

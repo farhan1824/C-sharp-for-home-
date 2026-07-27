@@ -1,4 +1,4 @@
-﻿@model IEnumerable<StudentManagementMvc.Entities.Student>
+﻿@model IEnumerable<StudentManagementMvc.Models.StudentResultVm>
 
 
 <h2>
@@ -24,6 +24,25 @@
             </th>
 
 
+            <th>
+                Department
+            </th>
+
+
+            <th>
+                Average Mark
+            </th>
+
+
+            <th>
+                Grade
+            </th>
+
+
+            <th>
+                Status
+            </th>
+
         </tr>
 
     </thead>
@@ -45,6 +64,39 @@
 
                 <td>
                     @student.StudentId
+                </td>
+
+
+                <td>
+                    @student.DepartmentName
+                </td>
+
+
+                <td>
+                    @student.AverageMark
+                </td>
+
+
+                <td>
+                    @student.Grade
+                </td>
+
+
+                <td>
+
+                    @if (student.IsPassed)
+                    {
+                        <span class="text-success">
+                            Passed
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">
+                            Failed
+                        </span>
+                    }
+
                 </td>
 
 

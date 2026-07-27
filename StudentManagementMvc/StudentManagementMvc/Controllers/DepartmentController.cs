@@ -46,7 +46,7 @@ namespace StudentManagementMvc.Controllers
             if (ModelState.IsValid)
             {
 
-                Department department = new Department()
+                Department department = new Department
                 {
                     DepartmentName = vm.DepartmentName
                 };
@@ -67,7 +67,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-        // GET: Department/Edit/5
+        // GET: Department/Edit
         public async Task<IActionResult> Edit(int id)
         {
 
@@ -80,7 +80,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-            DepartmentEditVm vm = new()
+            DepartmentEditVm vm = new DepartmentEditVm
             {
                 Id = department.Id,
                 DepartmentName = department.DepartmentName
@@ -131,7 +131,7 @@ namespace StudentManagementMvc.Controllers
 
 
 
-        // GET: Department/Delete/5
+        // GET: Department/Delete
         public async Task<IActionResult> Delete(int id)
         {
 
